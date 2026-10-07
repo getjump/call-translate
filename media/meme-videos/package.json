@@ -1,0 +1,23 @@
+{
+  "name": "call-translate-memes",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "render": "node render.mjs",
+    "studio": "remotion studio src/index.tsx"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.527",
+    "@remotion/renderer": "4.0.527",
+    "@remotion/cli": "4.0.527",
+    "remotion": "4.0.527",
+    "react": "19.2.0",
+    "react-dom": "19.2.0"
+  },
+  "devDependencies": {
+    "typescript": "7.0.2",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0"
+  }
+}

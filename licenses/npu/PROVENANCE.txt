@@ -1,0 +1,19 @@
+Native mel extraction and fixed-cache QNN decode are adapted from whisper-htp-android,
+commit b33eae5c9985db06a4fb520272c321dea6849907, by Ali Daniali (MIT).
+https://github.com/thedevguy/whisper-htp-android
+
+Whisper v3 text-token bytes and 128-bin Slaney filters are from the verified probe.
+Special-token entries absent in its vocabulary export are restored using the
+100 language IDs in the vendored whisper.cpp src/whisper.cpp g_lang table and
+Whisper v3 task markers. Ordinary text-token bytes are unchanged.
+
+libonnxruntime_qnn.so is the unmodified arm64-v8a libonnxruntime.so extracted
+from Microsoft onnxruntime-android-qnn 1.29.0, renamed for process isolation.
+SHA256 of the source AAR: cc4cfd72a47703aee65d8e6ce7448fa7488e3fff6556f9d6d354ec1687347cfd
+The QNN libraries are unmodified arm64 libraries from Qualcomm qnn-runtime 2.50.0.
+SHA256 of the source AAR: b507656e4031d8aa6a7ab0fecf725b941096737ad7440ad7ea288f7c9cc9d743
+Runtime licenses and notices are retained in this directory.
+
+The downloaded Qualcomm Whisper-Large-V3-Turbo-Quantized v0.64.0 model is
+separate from these assets. The service supports only its HTP81 w8a16 export.
+https://huggingface.co/qualcomm/Whisper-Large-V3-Turbo-Quantized

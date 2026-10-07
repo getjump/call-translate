@@ -1,0 +1,84 @@
+{
+  "validated": [
+    {
+      "file": "translation-promo.mp4",
+      "video": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "frames": 540,
+        "duration_s": 18.0,
+        "codec": "h264",
+        "pixel_format": "yuv420p",
+        "color_space": "bt709"
+      },
+      "audio": {
+        "codec": "aac",
+        "sample_rate": "48000",
+        "channels": 2,
+        "sample_peak": 0.86996,
+        "clipped_samples": 0,
+        "integrated_lufs": -17.77,
+        "true_peak_dbtp": -1.18,
+        "loudness_range_lu": 3.1
+      },
+      "container_duration_s": 18.048,
+      "size_bytes": 2131539,
+      "decode": "passed"
+    },
+    {
+      "file": "voice-agent-concept.mp4",
+      "video": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "frames": 540,
+        "duration_s": 18.0,
+        "codec": "h264",
+        "pixel_format": "yuv420p",
+        "color_space": "bt709"
+      },
+      "audio": {
+        "codec": "aac",
+        "sample_rate": "48000",
+        "channels": 2,
+        "sample_peak": 0.87246,
+        "clipped_samples": 0,
+        "integrated_lufs": -16.52,
+        "true_peak_dbtp": -1.16,
+        "loudness_range_lu": 6.0
+      },
+      "container_duration_s": 18.048,
+      "size_bytes": 1778147,
+      "decode": "passed"
+    },
+    {
+      "file": "incoming-inheritance.mp4",
+      "video": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "frames": 600,
+        "duration_s": 20.0,
+        "codec": "h264",
+        "pixel_format": "yuv420p",
+        "color_space": "bt709"
+      },
+      "audio": {
+        "codec": "aac",
+        "sample_rate": "48000",
+        "channels": 2,
+        "sample_peak": 0.83876,
+        "clipped_samples": 0,
+        "integrated_lufs": -15.93,
+        "true_peak_dbtp": -1.5,
+        "loudness_range_lu": 14.6
+      },
+      "container_duration_s": 20.053333,
+      "size_bytes": 2203557,
+      "decode": "passed"
+    }
+  ],
+  "visual_review": "Contact sheets and selected full resolution frames",
+  "limitations": "Illustrated interface. Voice agent is a concept; generated speech does not demonstrate a live SIM conversation."
+}

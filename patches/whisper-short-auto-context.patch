@@ -1,0 +1,30 @@
+--- a/src/whisper.cpp
++++ b/src/whisper.cpp
+@@ -6989,6 +6989,13 @@
+         }
+     }
+ 
++    // overwrite audio_ctx, max allowed is hparams.n_audio_ctx
++    if (params.audio_ctx > whisper_n_audio_ctx(ctx)) {
++        WHISPER_LOG_ERROR("%s: audio_ctx is larger than the maximum allowed (%d > %d)\n", __func__, params.audio_ctx, whisper_n_audio_ctx(ctx));
++        return -5;
++    }
++    state->exp_n_audio_ctx = params.audio_ctx;
++
+     // auto-detect language if not specified
+     if (params.language == nullptr || strlen(params.language) == 0 || strcmp(params.language, "auto") == 0 || params.detect_language) {
+         std::vector<float> probs(whisper_lang_max_id() + 1, 0.0f);
+@@ -7137,13 +7144,6 @@
+             }
+         }
+     }
+-
+-    // overwrite audio_ctx, max allowed is hparams.n_audio_ctx
+-    if (params.audio_ctx > whisper_n_audio_ctx(ctx)) {
+-        WHISPER_LOG_ERROR("%s: audio_ctx is larger than the maximum allowed (%d > %d)\n", __func__, params.audio_ctx, whisper_n_audio_ctx(ctx));
+-        return -5;
+-    }
+-    state->exp_n_audio_ctx = params.audio_ctx;
+ 
+     // these tokens determine the task that will be performed
+     std::vector<whisper_token> prompt_init = { whisper_token_sot(ctx), };

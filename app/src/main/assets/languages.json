@@ -1,0 +1,1012 @@
+[
+  {
+    "code": "ar",
+    "nllb": "arb_Arab",
+    "token": 256011
+  },
+  {
+    "code": "af",
+    "nllb": "afr_Latn",
+    "token": 256006
+  },
+  {
+    "code": "ak",
+    "nllb": "aka_Latn",
+    "token": 256008
+  },
+  {
+    "code": "am",
+    "nllb": "amh_Ethi",
+    "token": 256009
+  },
+  {
+    "code": "as",
+    "nllb": "asm_Beng",
+    "token": 256015
+  },
+  {
+    "code": "eu",
+    "nllb": "eus_Latn",
+    "token": 256050
+  },
+  {
+    "code": "ba",
+    "nllb": "bak_Cyrl",
+    "token": 256021
+  },
+  {
+    "code": "bm",
+    "nllb": "bam_Latn",
+    "token": 256022
+  },
+  {
+    "code": "be",
+    "nllb": "bel_Cyrl",
+    "token": 256024
+  },
+  {
+    "code": "bn",
+    "nllb": "ben_Beng",
+    "token": 256026
+  },
+  {
+    "code": "bs",
+    "nllb": "bos_Latn",
+    "token": 256031
+  },
+  {
+    "code": "bg",
+    "nllb": "bul_Cyrl",
+    "token": 256033
+  },
+  {
+    "code": "ca",
+    "nllb": "cat_Latn",
+    "token": 256034
+  },
+  {
+    "code": "zh",
+    "nllb": "zho_Hans",
+    "token": 256200
+  },
+  {
+    "code": "cs",
+    "nllb": "ces_Latn",
+    "token": 256036
+  },
+  {
+    "code": "da",
+    "nllb": "dan_Latn",
+    "token": 256041
+  },
+  {
+    "code": "dz",
+    "nllb": "dzo_Tibt",
+    "token": 256045
+  },
+  {
+    "code": "de",
+    "nllb": "deu_Latn",
+    "token": 256042
+  },
+  {
+    "code": "eo",
+    "nllb": "epo_Latn",
+    "token": 256048
+  },
+  {
+    "code": "et",
+    "nllb": "est_Latn",
+    "token": 256049
+  },
+  {
+    "code": "ee",
+    "nllb": "ewe_Latn",
+    "token": 256051
+  },
+  {
+    "code": "el",
+    "nllb": "ell_Grek",
+    "token": 256046
+  },
+  {
+    "code": "en",
+    "nllb": "eng_Latn",
+    "token": 256047
+  },
+  {
+    "code": "es",
+    "nllb": "spa_Latn",
+    "token": 256161
+  },
+  {
+    "code": "fi",
+    "nllb": "fin_Latn",
+    "token": 256055
+  },
+  {
+    "code": "fo",
+    "nllb": "fao_Latn",
+    "token": 256052
+  },
+  {
+    "code": "fj",
+    "nllb": "fij_Latn",
+    "token": 256054
+  },
+  {
+    "code": "gu",
+    "nllb": "guj_Gujr",
+    "token": 256064
+  },
+  {
+    "code": "ha",
+    "nllb": "hau_Latn",
+    "token": 256066
+  },
+  {
+    "code": "he",
+    "nllb": "heb_Hebr",
+    "token": 256067
+  },
+  {
+    "code": "hi",
+    "nllb": "hin_Deva",
+    "token": 256068
+  },
+  {
+    "code": "hu",
+    "nllb": "hun_Latn",
+    "token": 256071
+  },
+  {
+    "code": "jv",
+    "nllb": "jav_Latn",
+    "token": 256078
+  },
+  {
+    "code": "ka",
+    "nllb": "kat_Geor",
+    "token": 256086
+  },
+  {
+    "code": "tl",
+    "nllb": "tgl_Latn",
+    "token": 256174
+  },
+  {
+    "code": "fr",
+    "nllb": "fra_Latn",
+    "token": 256057
+  },
+  {
+    "code": "gl",
+    "nllb": "glg_Latn",
+    "token": 256062
+  },
+  {
+    "code": "gn",
+    "nllb": "grn_Latn",
+    "token": 256063
+  },
+  {
+    "code": "hr",
+    "nllb": "hrv_Latn",
+    "token": 256070
+  },
+  {
+    "code": "it",
+    "nllb": "ita_Latn",
+    "token": 256077
+  },
+  {
+    "code": "ja",
+    "nllb": "jpn_Jpan",
+    "token": 256079
+  },
+  {
+    "code": "ko",
+    "nllb": "kor_Hang",
+    "token": 256098
+  },
+  {
+    "code": "mk",
+    "nllb": "mkd_Cyrl",
+    "token": 256118
+  },
+  {
+    "code": "nl",
+    "nllb": "nld_Latn",
+    "token": 256127
+  },
+  {
+    "code": "pl",
+    "nllb": "pol_Latn",
+    "token": 256140
+  },
+  {
+    "code": "pt",
+    "nllb": "por_Latn",
+    "token": 256141
+  },
+  {
+    "code": "ro",
+    "nllb": "ron_Latn",
+    "token": 256145
+  },
+  {
+    "code": "ru",
+    "nllb": "rus_Cyrl",
+    "token": 256147
+  },
+  {
+    "code": "sk",
+    "nllb": "slk_Latn",
+    "token": 256154
+  },
+  {
+    "code": "sv",
+    "nllb": "swe_Latn",
+    "token": 256167
+  },
+  {
+    "code": "ta",
+    "nllb": "tam_Taml",
+    "token": 256170
+  },
+  {
+    "code": "th",
+    "nllb": "tha_Thai",
+    "token": 256175
+  },
+  {
+    "code": "tr",
+    "nllb": "tur_Latn",
+    "token": 256184
+  },
+  {
+    "code": "uk",
+    "nllb": "ukr_Cyrl",
+    "token": 256188
+  },
+  {
+    "code": "ur",
+    "nllb": "urd_Arab",
+    "token": 256190
+  },
+  {
+    "code": "vi",
+    "nllb": "vie_Latn",
+    "token": 256193
+  },
+  {
+    "code": "kn",
+    "nllb": "kan_Knda",
+    "token": 256083
+  },
+  {
+    "code": "ks",
+    "nllb": "kas_Arab",
+    "token": 256084
+  },
+  {
+    "code": "kk",
+    "nllb": "kaz_Cyrl",
+    "token": 256089
+  },
+  {
+    "code": "ki",
+    "nllb": "kik_Latn",
+    "token": 256093
+  },
+  {
+    "code": "ga",
+    "nllb": "gle_Latn",
+    "token": 256061
+  },
+  {
+    "code": "rw",
+    "nllb": "kin_Latn",
+    "token": 256094
+  },
+  {
+    "code": "ky",
+    "nllb": "kir_Cyrl",
+    "token": 256095
+  },
+  {
+    "code": "lo",
+    "nllb": "lao_Laoo",
+    "token": 256100
+  },
+  {
+    "code": "li",
+    "nllb": "lim_Latn",
+    "token": 256103
+  },
+  {
+    "code": "ln",
+    "nllb": "lin_Latn",
+    "token": 256104
+  },
+  {
+    "code": "lt",
+    "nllb": "lit_Latn",
+    "token": 256105
+  },
+  {
+    "code": "lb",
+    "nllb": "ltz_Latn",
+    "token": 256108
+  },
+  {
+    "code": "bo",
+    "nllb": "bod_Tibt",
+    "token": 256030
+  },
+  {
+    "code": "fa",
+    "nllb": "pes_Arab",
+    "token": 256053
+  },
+  {
+    "code": "km",
+    "nllb": "khm_Khmr",
+    "token": 256092
+  },
+  {
+    "code": "ace_Arab",
+    "nllb": "ace_Arab",
+    "token": 256001
+  },
+  {
+    "code": "ace_Latn",
+    "nllb": "ace_Latn",
+    "token": 256002
+  },
+  {
+    "code": "acm_Arab",
+    "nllb": "acm_Arab",
+    "token": 256003
+  },
+  {
+    "code": "acq_Arab",
+    "nllb": "acq_Arab",
+    "token": 256004
+  },
+  {
+    "code": "aeb_Arab",
+    "nllb": "aeb_Arab",
+    "token": 256005
+  },
+  {
+    "code": "ajp_Arab",
+    "nllb": "ajp_Arab",
+    "token": 256007
+  },
+  {
+    "code": "apc_Arab",
+    "nllb": "apc_Arab",
+    "token": 256010
+  },
+  {
+    "code": "ars_Arab",
+    "nllb": "ars_Arab",
+    "token": 256012
+  },
+  {
+    "code": "ary_Arab",
+    "nllb": "ary_Arab",
+    "token": 256013
+  },
+  {
+    "code": "arz_Arab",
+    "nllb": "arz_Arab",
+    "token": 256014
+  },
+  {
+    "code": "ast_Latn",
+    "nllb": "ast_Latn",
+    "token": 256016
+  },
+  {
+    "code": "awa_Deva",
+    "nllb": "awa_Deva",
+    "token": 256017
+  },
+  {
+    "code": "ayr_Latn",
+    "nllb": "ayr_Latn",
+    "token": 256018
+  },
+  {
+    "code": "azb_Arab",
+    "nllb": "azb_Arab",
+    "token": 256019
+  },
+  {
+    "code": "azj_Latn",
+    "nllb": "azj_Latn",
+    "token": 256020
+  },
+  {
+    "code": "ban_Latn",
+    "nllb": "ban_Latn",
+    "token": 256023
+  },
+  {
+    "code": "bem_Latn",
+    "nllb": "bem_Latn",
+    "token": 256025
+  },
+  {
+    "code": "bho_Deva",
+    "nllb": "bho_Deva",
+    "token": 256027
+  },
+  {
+    "code": "bjn_Arab",
+    "nllb": "bjn_Arab",
+    "token": 256028
+  },
+  {
+    "code": "bjn_Latn",
+    "nllb": "bjn_Latn",
+    "token": 256029
+  },
+  {
+    "code": "bug_Latn",
+    "nllb": "bug_Latn",
+    "token": 256032
+  },
+  {
+    "code": "ceb_Latn",
+    "nllb": "ceb_Latn",
+    "token": 256035
+  },
+  {
+    "code": "cjk_Latn",
+    "nllb": "cjk_Latn",
+    "token": 256037
+  },
+  {
+    "code": "ckb_Arab",
+    "nllb": "ckb_Arab",
+    "token": 256038
+  },
+  {
+    "code": "crh_Latn",
+    "nllb": "crh_Latn",
+    "token": 256039
+  },
+  {
+    "code": "cym_Latn",
+    "nllb": "cym_Latn",
+    "token": 256040
+  },
+  {
+    "code": "dik_Latn",
+    "nllb": "dik_Latn",
+    "token": 256043
+  },
+  {
+    "code": "dyu_Latn",
+    "nllb": "dyu_Latn",
+    "token": 256044
+  },
+  {
+    "code": "fon_Latn",
+    "nllb": "fon_Latn",
+    "token": 256056
+  },
+  {
+    "code": "fur_Latn",
+    "nllb": "fur_Latn",
+    "token": 256058
+  },
+  {
+    "code": "fuv_Latn",
+    "nllb": "fuv_Latn",
+    "token": 256059
+  },
+  {
+    "code": "gla_Latn",
+    "nllb": "gla_Latn",
+    "token": 256060
+  },
+  {
+    "code": "hat_Latn",
+    "nllb": "hat_Latn",
+    "token": 256065
+  },
+  {
+    "code": "hne_Deva",
+    "nllb": "hne_Deva",
+    "token": 256069
+  },
+  {
+    "code": "hye_Armn",
+    "nllb": "hye_Armn",
+    "token": 256072
+  },
+  {
+    "code": "ibo_Latn",
+    "nllb": "ibo_Latn",
+    "token": 256073
+  },
+  {
+    "code": "ilo_Latn",
+    "nllb": "ilo_Latn",
+    "token": 256074
+  },
+  {
+    "code": "ind_Latn",
+    "nllb": "ind_Latn",
+    "token": 256075
+  },
+  {
+    "code": "isl_Latn",
+    "nllb": "isl_Latn",
+    "token": 256076
+  },
+  {
+    "code": "kab_Latn",
+    "nllb": "kab_Latn",
+    "token": 256080
+  },
+  {
+    "code": "kac_Latn",
+    "nllb": "kac_Latn",
+    "token": 256081
+  },
+  {
+    "code": "kam_Latn",
+    "nllb": "kam_Latn",
+    "token": 256082
+  },
+  {
+    "code": "kas_Deva",
+    "nllb": "kas_Deva",
+    "token": 256085
+  },
+  {
+    "code": "knc_Arab",
+    "nllb": "knc_Arab",
+    "token": 256087
+  },
+  {
+    "code": "knc_Latn",
+    "nllb": "knc_Latn",
+    "token": 256088
+  },
+  {
+    "code": "kbp_Latn",
+    "nllb": "kbp_Latn",
+    "token": 256090
+  },
+  {
+    "code": "kea_Latn",
+    "nllb": "kea_Latn",
+    "token": 256091
+  },
+  {
+    "code": "kmb_Latn",
+    "nllb": "kmb_Latn",
+    "token": 256096
+  },
+  {
+    "code": "kon_Latn",
+    "nllb": "kon_Latn",
+    "token": 256097
+  },
+  {
+    "code": "kmr_Latn",
+    "nllb": "kmr_Latn",
+    "token": 256099
+  },
+  {
+    "code": "lvs_Latn",
+    "nllb": "lvs_Latn",
+    "token": 256101
+  },
+  {
+    "code": "lij_Latn",
+    "nllb": "lij_Latn",
+    "token": 256102
+  },
+  {
+    "code": "lmo_Latn",
+    "nllb": "lmo_Latn",
+    "token": 256106
+  },
+  {
+    "code": "ltg_Latn",
+    "nllb": "ltg_Latn",
+    "token": 256107
+  },
+  {
+    "code": "lua_Latn",
+    "nllb": "lua_Latn",
+    "token": 256109
+  },
+  {
+    "code": "lug_Latn",
+    "nllb": "lug_Latn",
+    "token": 256110
+  },
+  {
+    "code": "luo_Latn",
+    "nllb": "luo_Latn",
+    "token": 256111
+  },
+  {
+    "code": "lus_Latn",
+    "nllb": "lus_Latn",
+    "token": 256112
+  },
+  {
+    "code": "mag_Deva",
+    "nllb": "mag_Deva",
+    "token": 256113
+  },
+  {
+    "code": "mai_Deva",
+    "nllb": "mai_Deva",
+    "token": 256114
+  },
+  {
+    "code": "mal_Mlym",
+    "nllb": "mal_Mlym",
+    "token": 256115
+  },
+  {
+    "code": "mar_Deva",
+    "nllb": "mar_Deva",
+    "token": 256116
+  },
+  {
+    "code": "min_Latn",
+    "nllb": "min_Latn",
+    "token": 256117
+  },
+  {
+    "code": "plt_Latn",
+    "nllb": "plt_Latn",
+    "token": 256119
+  },
+  {
+    "code": "mlt_Latn",
+    "nllb": "mlt_Latn",
+    "token": 256120
+  },
+  {
+    "code": "mni_Beng",
+    "nllb": "mni_Beng",
+    "token": 256121
+  },
+  {
+    "code": "khk_Cyrl",
+    "nllb": "khk_Cyrl",
+    "token": 256122
+  },
+  {
+    "code": "mos_Latn",
+    "nllb": "mos_Latn",
+    "token": 256123
+  },
+  {
+    "code": "mri_Latn",
+    "nllb": "mri_Latn",
+    "token": 256124
+  },
+  {
+    "code": "zsm_Latn",
+    "nllb": "zsm_Latn",
+    "token": 256125
+  },
+  {
+    "code": "mya_Mymr",
+    "nllb": "mya_Mymr",
+    "token": 256126
+  },
+  {
+    "code": "nno_Latn",
+    "nllb": "nno_Latn",
+    "token": 256128
+  },
+  {
+    "code": "nob_Latn",
+    "nllb": "nob_Latn",
+    "token": 256129
+  },
+  {
+    "code": "npi_Deva",
+    "nllb": "npi_Deva",
+    "token": 256130
+  },
+  {
+    "code": "nso_Latn",
+    "nllb": "nso_Latn",
+    "token": 256131
+  },
+  {
+    "code": "nus_Latn",
+    "nllb": "nus_Latn",
+    "token": 256132
+  },
+  {
+    "code": "nya_Latn",
+    "nllb": "nya_Latn",
+    "token": 256133
+  },
+  {
+    "code": "oci_Latn",
+    "nllb": "oci_Latn",
+    "token": 256134
+  },
+  {
+    "code": "gaz_Latn",
+    "nllb": "gaz_Latn",
+    "token": 256135
+  },
+  {
+    "code": "ory_Orya",
+    "nllb": "ory_Orya",
+    "token": 256136
+  },
+  {
+    "code": "pag_Latn",
+    "nllb": "pag_Latn",
+    "token": 256137
+  },
+  {
+    "code": "pan_Guru",
+    "nllb": "pan_Guru",
+    "token": 256138
+  },
+  {
+    "code": "pap_Latn",
+    "nllb": "pap_Latn",
+    "token": 256139
+  },
+  {
+    "code": "prs_Arab",
+    "nllb": "prs_Arab",
+    "token": 256142
+  },
+  {
+    "code": "pbt_Arab",
+    "nllb": "pbt_Arab",
+    "token": 256143
+  },
+  {
+    "code": "quy_Latn",
+    "nllb": "quy_Latn",
+    "token": 256144
+  },
+  {
+    "code": "run_Latn",
+    "nllb": "run_Latn",
+    "token": 256146
+  },
+  {
+    "code": "sag_Latn",
+    "nllb": "sag_Latn",
+    "token": 256148
+  },
+  {
+    "code": "san_Deva",
+    "nllb": "san_Deva",
+    "token": 256149
+  },
+  {
+    "code": "sat_Beng",
+    "nllb": "sat_Beng",
+    "token": 256150
+  },
+  {
+    "code": "scn_Latn",
+    "nllb": "scn_Latn",
+    "token": 256151
+  },
+  {
+    "code": "shn_Mymr",
+    "nllb": "shn_Mymr",
+    "token": 256152
+  },
+  {
+    "code": "sin_Sinh",
+    "nllb": "sin_Sinh",
+    "token": 256153
+  },
+  {
+    "code": "slv_Latn",
+    "nllb": "slv_Latn",
+    "token": 256155
+  },
+  {
+    "code": "smo_Latn",
+    "nllb": "smo_Latn",
+    "token": 256156
+  },
+  {
+    "code": "sna_Latn",
+    "nllb": "sna_Latn",
+    "token": 256157
+  },
+  {
+    "code": "snd_Arab",
+    "nllb": "snd_Arab",
+    "token": 256158
+  },
+  {
+    "code": "som_Latn",
+    "nllb": "som_Latn",
+    "token": 256159
+  },
+  {
+    "code": "sot_Latn",
+    "nllb": "sot_Latn",
+    "token": 256160
+  },
+  {
+    "code": "als_Latn",
+    "nllb": "als_Latn",
+    "token": 256162
+  },
+  {
+    "code": "srd_Latn",
+    "nllb": "srd_Latn",
+    "token": 256163
+  },
+  {
+    "code": "srp_Cyrl",
+    "nllb": "srp_Cyrl",
+    "token": 256164
+  },
+  {
+    "code": "ssw_Latn",
+    "nllb": "ssw_Latn",
+    "token": 256165
+  },
+  {
+    "code": "sun_Latn",
+    "nllb": "sun_Latn",
+    "token": 256166
+  },
+  {
+    "code": "swh_Latn",
+    "nllb": "swh_Latn",
+    "token": 256168
+  },
+  {
+    "code": "szl_Latn",
+    "nllb": "szl_Latn",
+    "token": 256169
+  },
+  {
+    "code": "tat_Cyrl",
+    "nllb": "tat_Cyrl",
+    "token": 256171
+  },
+  {
+    "code": "tel_Telu",
+    "nllb": "tel_Telu",
+    "token": 256172
+  },
+  {
+    "code": "tgk_Cyrl",
+    "nllb": "tgk_Cyrl",
+    "token": 256173
+  },
+  {
+    "code": "tir_Ethi",
+    "nllb": "tir_Ethi",
+    "token": 256176
+  },
+  {
+    "code": "taq_Latn",
+    "nllb": "taq_Latn",
+    "token": 256177
+  },
+  {
+    "code": "taq_Tfng",
+    "nllb": "taq_Tfng",
+    "token": 256178
+  },
+  {
+    "code": "tpi_Latn",
+    "nllb": "tpi_Latn",
+    "token": 256179
+  },
+  {
+    "code": "tsn_Latn",
+    "nllb": "tsn_Latn",
+    "token": 256180
+  },
+  {
+    "code": "tso_Latn",
+    "nllb": "tso_Latn",
+    "token": 256181
+  },
+  {
+    "code": "tuk_Latn",
+    "nllb": "tuk_Latn",
+    "token": 256182
+  },
+  {
+    "code": "tum_Latn",
+    "nllb": "tum_Latn",
+    "token": 256183
+  },
+  {
+    "code": "twi_Latn",
+    "nllb": "twi_Latn",
+    "token": 256185
+  },
+  {
+    "code": "tzm_Tfng",
+    "nllb": "tzm_Tfng",
+    "token": 256186
+  },
+  {
+    "code": "uig_Arab",
+    "nllb": "uig_Arab",
+    "token": 256187
+  },
+  {
+    "code": "umb_Latn",
+    "nllb": "umb_Latn",
+    "token": 256189
+  },
+  {
+    "code": "uzn_Latn",
+    "nllb": "uzn_Latn",
+    "token": 256191
+  },
+  {
+    "code": "vec_Latn",
+    "nllb": "vec_Latn",
+    "token": 256192
+  },
+  {
+    "code": "war_Latn",
+    "nllb": "war_Latn",
+    "token": 256194
+  },
+  {
+    "code": "wol_Latn",
+    "nllb": "wol_Latn",
+    "token": 256195
+  },
+  {
+    "code": "xho_Latn",
+    "nllb": "xho_Latn",
+    "token": 256196
+  },
+  {
+    "code": "ydd_Hebr",
+    "nllb": "ydd_Hebr",
+    "token": 256197
+  },
+  {
+    "code": "yor_Latn",
+    "nllb": "yor_Latn",
+    "token": 256198
+  },
+  {
+    "code": "yue_Hant",
+    "nllb": "yue_Hant",
+    "token": 256199
+  },
+  {
+    "code": "zho_Hant",
+    "nllb": "zho_Hant",
+    "token": 256201
+  },
+  {
+    "code": "zul_Latn",
+    "nllb": "zul_Latn",
+    "token": 256202
+  }
+]

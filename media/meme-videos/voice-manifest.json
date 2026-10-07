@@ -1,0 +1,90 @@
+[
+  {
+    "id": "a-hook",
+    "text": "[confident] Выучу одну фразу. И я практически серб.",
+    "language": "ru",
+    "model": "eleven_v3",
+    "duration": 2.96,
+    "file": "a-hook.mp3"
+  },
+  {
+    "id": "a-panic",
+    "text": "[nervous] Мне воды. Воды.",
+    "language": "ru",
+    "model": "eleven_v3",
+    "duration": 2.4,
+    "file": "a-panic.mp3"
+  },
+  {
+    "id": "hero-pivo",
+    "text": "[confident] Pivo, molim.",
+    "language": "sr",
+    "model": "eleven_v3",
+    "duration": 1.28,
+    "file": "hero-pivo.mp3"
+  },
+  {
+    "id": "a-payoff",
+    "text": "[surprised] Вода, ты изменилась!",
+    "language": "ru",
+    "model": "eleven_v3",
+    "duration": 2.08,
+    "file": "a-payoff.mp3"
+  },
+  {
+    "id": "a-user",
+    "text": "Мне воды, пожалуйста.",
+    "language": "ru",
+    "model": "eleven_v3",
+    "duration": 1.04,
+    "file": "a-user.mp3"
+  },
+  {
+    "id": "agent-vodu",
+    "text": "Vodu, molim.",
+    "language": "sr",
+    "model": "eleven_v3",
+    "duration": 1.84,
+    "file": "agent-vodu.mp3"
+  },
+  {
+    "id": "b-hook",
+    "text": "[confident] Фраза выучена. Идеально.",
+    "language": "ru",
+    "model": "eleven_v3",
+    "duration": 2.4,
+    "file": "b-hook.mp3"
+  },
+  {
+    "id": "hero-vodu",
+    "text": "[confident] Воду, молим.",
+    "language": "sr",
+    "model": "eleven_v3",
+    "duration": 1.44,
+    "file": "hero-vodu.mp3"
+  },
+  {
+    "id": "b-payoff",
+    "text": "[disappointed] Но я же хотел пиво.",
+    "language": "ru",
+    "model": "eleven_v3",
+    "duration": 1.84,
+    "file": "b-payoff.mp3"
+  },
+  {
+    "id": "b-user",
+    "text": "Хочу пиво.",
+    "language": "ru",
+    "model": "eleven_v3",
+    "duration": 0.88,
+    "file": "b-user.mp3"
+  },
+  {
+    "id": "agent-pivo",
+    "text": "Pivo, molim.",
+    "language": "sr",
+    "model": "eleven_v3",
+    "duration": 1.44,
+    "file": "agent-pivo.mp3"
+  }
+]

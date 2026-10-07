@@ -1,0 +1,163 @@
+[
+  {
+    "id": "whisper-turbo-qnn",
+    "type": "asr",
+    "name": "Whisper large-v3-turbo / NPU (HTP)",
+    "runtime": "qnn-htp",
+    "license": "MIT",
+    "backends": [
+      "NPU"
+    ],
+    "archive": {
+      "url": "https://qaihub-public-assets.s3.us-west-2.amazonaws.com/qai-hub-models/models/whisper_large_v3_turbo_quantized/releases/v0.64.0/whisper_large_v3_turbo_quantized-precompiled_qnn_onnx-w8a16-qualcomm_snapdragon_8_elite_gen5_for_galaxy.zip",
+      "size": 824020794,
+      "sha256": "12c4469b443b06ac6ef36b4268f7822cda798c03abadcda0c93f7b9ddbb24f16",
+      "prefix": "whisper_large_v3_turbo_quantized-precompiled_qnn_onnx-w8a16-qualcomm_snapdragon_8_elite_gen5_for_galaxy/"
+    },
+    "files": [
+      {
+        "name": "encoder.onnx",
+        "sha256": "716f95058b4ce16fdd30a0333c61d33794b420478dad696c015f00211f357b15",
+        "size": 4644
+      },
+      {
+        "name": "encoder.bin",
+        "sha256": "5f5ff7cf77932ddb56654f2c1083e03cdb88c2b3fa0bd8d0910caceaec775235",
+        "size": 687283976
+      },
+      {
+        "name": "decoder.onnx",
+        "sha256": "a3803220b777566757aa9d8c21c8f8b4efe2d8cbd591e2617965588b91a9d471",
+        "size": 13849
+      },
+      {
+        "name": "decoder.bin",
+        "sha256": "b6be63f758903403105efc764be5cf807c36f4d0f81e31b4f3a50c71fc249138",
+        "size": 295847840
+      },
+      {
+        "name": "metadata.json",
+        "sha256": "a0fdc16f6429e2078e1899b2a01cbafb2f2dff9aa97424eb8507b90866502ff3",
+        "size": 16387
+      }
+    ]
+  },
+  {
+    "id": "whisper-base",
+    "type": "asr",
+    "name": "Whisper base",
+    "runtime": "whisper.cpp",
+    "license": "MIT",
+    "backends": [
+      "CPU",
+      "Vulkan"
+    ],
+    "files": [
+      {
+        "name": "ggml-base.bin",
+        "url": "https://huggingface.co/ggerganov/whisper.cpp/resolve/5359861c739e955e79d9a303bcbc70fb988958b1/ggml-base.bin",
+        "size": 147951465,
+        "sha256": "60ed5bc3dd14eea856493d334349b405782ddcaf0028d4b5df4088345fba2efe"
+      }
+    ]
+  },
+  {
+    "id": "whisper-tiny",
+    "type": "asr",
+    "name": "Whisper tiny",
+    "runtime": "whisper.cpp",
+    "license": "MIT",
+    "backends": [
+      "CPU",
+      "Vulkan"
+    ],
+    "files": [
+      {
+        "name": "ggml-tiny.bin",
+        "url": "https://huggingface.co/ggerganov/whisper.cpp/resolve/5359861c739e955e79d9a303bcbc70fb988958b1/ggml-tiny.bin",
+        "size": 77691713,
+        "sha256": "be07e048e1e599ad46341c8d2a135645097a538221678b7acdd1b1919c6e1b21"
+      }
+    ]
+  },
+  {
+    "id": "whisper-small-q5",
+    "type": "asr",
+    "name": "Whisper small Q5",
+    "runtime": "whisper.cpp",
+    "license": "MIT",
+    "backends": [
+      "CPU",
+      "Vulkan"
+    ],
+    "files": [
+      {
+        "name": "ggml-small-q5_1.bin",
+        "url": "https://huggingface.co/ggerganov/whisper.cpp/resolve/5359861c739e955e79d9a303bcbc70fb988958b1/ggml-small-q5_1.bin",
+        "size": 190085487,
+        "sha256": "ae85e4a935d7a567bd102fe55afc16bb595bdb618e11b2fc7591bc08120411bb"
+      }
+    ]
+  },
+  {
+    "id": "whisper-turbo-q5",
+    "type": "asr",
+    "name": "Whisper large-v3-turbo Q5 (эксперимент)",
+    "runtime": "whisper.cpp",
+    "license": "MIT",
+    "backends": [
+      "CPU",
+      "Vulkan"
+    ],
+    "files": [
+      {
+        "name": "ggml-large-v3-turbo-q5_0.bin",
+        "url": "https://huggingface.co/ggerganov/whisper.cpp/resolve/5359861c739e955e79d9a303bcbc70fb988958b1/ggml-large-v3-turbo-q5_0.bin",
+        "size": 574041195,
+        "sha256": "394221709cd5ad1f40c46e6031ca61bce88931e6e088c188294c6d5a55ffa7e2"
+      }
+    ]
+  },
+  {
+    "id": "nllb-600m",
+    "type": "translation",
+    "name": "NLLB-200 600M",
+    "runtime": "onnx-nllb-cache",
+    "license": "CC-BY-NC-4.0",
+    "backends": [
+      "CPU"
+    ],
+    "files": [
+      {
+        "name": "NLLB_cache_initializer.onnx",
+        "url": "https://github.com/niedev/RTranslator/releases/download/2.0.0/NLLB_cache_initializer.onnx",
+        "size": 25368443,
+        "sha256": "4150b3cba7db9487a94e3b693f79d0f89772e75d80bffd0e60b06de1b574e3d9"
+      },
+      {
+        "name": "NLLB_decoder.onnx",
+        "url": "https://github.com/niedev/RTranslator/releases/download/2.0.0/NLLB_decoder.onnx",
+        "size": 179109694,
+        "sha256": "86028825495fc34085c7ebb80fb5f0eaa18ac6600f9d4dbc55bc731cc6981159"
+      },
+      {
+        "name": "NLLB_embed_and_lm_head.onnx",
+        "url": "https://github.com/niedev/RTranslator/releases/download/2.0.0/NLLB_embed_and_lm_head.onnx",
+        "size": 524712277,
+        "sha256": "2745a6f932237b8bb0c35ded54987ea3fc455b696215d48d32271c28c785dd50"
+      },
+      {
+        "name": "NLLB_encoder.onnx",
+        "url": "https://github.com/niedev/RTranslator/releases/download/2.0.0/NLLB_encoder.onnx",
+        "size": 266487014,
+        "sha256": "9b25d62f4875e5087ffde53c2794308c07f60f4c77670fc5bbfe308a1ef88cd9"
+      },
+      {
+        "name": "sentencepiece_bpe.model",
+        "size": 4852054,
+        "sha256": "14bb8dfb35c0ffdea7bc01e56cea38b9e3d5efcdcb9c251d6b40538e1aab555a",
+        "asset": "sentencepiece_bpe.model"
+      }
+    ]
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "duration": 20,
+  "music": "Original slow procedural synth pad",
+  "voice": "Existing ElevenLabs eleven_v3 Serbian fictional caller reused; no new API request",
+  "first_pass": {
+    "voice_at_s": 0.95,
+    "voice_duration_s": 4.55,
+    "hangup_at_s": 5.5,
+    "translation": false
+  },
+  "pivot": {
+    "at_s": 7.0,
+    "copy": "А ты мог бы так",
+    "interpretation": "Counterfactual of the same incoming call, not post-call translation recovery"
+  },
+  "alternate_pass": {
+    "voice_at_s": 8.0,
+    "voice_duration_s": 8.96,
+    "translation": "During the call"
+  },
+  "voice_filter": "Telephone bandpass 220-3700Hz"
+}

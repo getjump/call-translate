@@ -1,0 +1,6 @@
+node_modules/
+out/
+.bundle/
+bundle/
+.env*
+*.log

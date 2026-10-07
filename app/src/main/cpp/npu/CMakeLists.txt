@@ -1,0 +1,5 @@
+add_library(whisper_htp SHARED htp_whisper.cpp whisper_mel.cpp)
+target_include_directories(whisper_htp PRIVATE ort/include)
+target_compile_features(whisper_htp PRIVATE cxx_std_17)
+target_compile_options(whisper_htp PRIVATE -O3 -march=armv8.2-a+fp16)
+target_link_libraries(whisper_htp PRIVATE log android dl)

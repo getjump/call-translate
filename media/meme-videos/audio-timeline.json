@@ -1,0 +1,127 @@
+{
+  "a": {
+    "duration": 19,
+    "sample_rate": 48000,
+    "voices": [
+      {
+        "id": "a-hook",
+        "start": 0.2,
+        "end": 2.287,
+        "original_duration": 2.96,
+        "tempo": 1.377
+      },
+      {
+        "id": "hero-vodu",
+        "start": 2.46,
+        "end": 3.096,
+        "original_duration": 1.44,
+        "tempo": 2.087
+      },
+      {
+        "id": "hero-vodu",
+        "start": 3.4,
+        "end": 4.036,
+        "original_duration": 1.44,
+        "tempo": 2.087
+      },
+      {
+        "id": "hero-vodu",
+        "start": 4.33,
+        "end": 4.966,
+        "original_duration": 1.44,
+        "tempo": 2.087
+      },
+      {
+        "id": "a-panic",
+        "start": 5.38,
+        "end": 6.35,
+        "original_duration": 2.4,
+        "tempo": 2.353
+      },
+      {
+        "id": "hero-pivo",
+        "start": 7.26,
+        "end": 8.242,
+        "original_duration": 1.28,
+        "tempo": 1.185
+      },
+      {
+        "id": "a-payoff",
+        "start": 9.04,
+        "end": 10.386,
+        "original_duration": 2.08,
+        "tempo": 1.405
+      },
+      {
+        "id": "agent-vodu",
+        "start": 14.17,
+        "end": 15.29,
+        "original_duration": 1.84,
+        "tempo": 1.559
+      }
+    ],
+    "peak_before_mastering": 0.5457,
+    "mastering": "loudnorm I=-16 TP=-1.5 LRA=9",
+    "music": "Original procedural melody and percussion",
+    "sfx": "Original local synthesis: whoosh, scratch, boing, confirmation"
+  },
+  "b": {
+    "duration": 19,
+    "sample_rate": 48000,
+    "voices": [
+      {
+        "id": "b-hook",
+        "start": 0.2,
+        "end": 1.838,
+        "original_duration": 2.4,
+        "tempo": 1.455
+      },
+      {
+        "id": "hero-vodu",
+        "start": 2.25,
+        "end": 2.804,
+        "original_duration": 1.44,
+        "tempo": 2.4
+      },
+      {
+        "id": "hero-vodu",
+        "start": 3.05,
+        "end": 3.604,
+        "original_duration": 1.44,
+        "tempo": 2.4
+      },
+      {
+        "id": "hero-vodu",
+        "start": 3.85,
+        "end": 4.404,
+        "original_duration": 1.44,
+        "tempo": 2.4
+      },
+      {
+        "id": "hero-vodu",
+        "start": 4.77,
+        "end": 5.77,
+        "original_duration": 1.44,
+        "tempo": 1.286
+      },
+      {
+        "id": "b-payoff",
+        "start": 8.73,
+        "end": 10.161,
+        "original_duration": 1.84,
+        "tempo": 1.179
+      },
+      {
+        "id": "agent-pivo",
+        "start": 12.39,
+        "end": 13.483,
+        "original_duration": 1.44,
+        "tempo": 1.2
+      }
+    ],
+    "peak_before_mastering": 0.5563,
+    "mastering": "loudnorm I=-16 TP=-1.5 LRA=9",
+    "music": "Original procedural melody and percussion",
+    "sfx": "Original local synthesis: whoosh, scratch, boing, confirmation"
+  }
+}

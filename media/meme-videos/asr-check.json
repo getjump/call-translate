@@ -1,0 +1,32 @@
+[
+  {
+    "asset": "hero-pivo",
+    "language": "sr",
+    "transcription": "Pivo molim."
+  },
+  {
+    "asset": "hero-vodu",
+    "language": "sr",
+    "transcription": "Vodu molim."
+  },
+  {
+    "asset": "agent-pivo",
+    "language": "sr",
+    "transcription": "Pivo, molim."
+  },
+  {
+    "asset": "agent-vodu",
+    "language": "sr",
+    "transcription": "Vodu, molim."
+  },
+  {
+    "asset": "a-user",
+    "language": "ru",
+    "transcription": "Мне воды, пожалуйста."
+  },
+  {
+    "asset": "b-user",
+    "language": "ru",
+    "transcription": "Хочу пива."
+  }
+]

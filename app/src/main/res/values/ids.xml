@@ -1,0 +1,11 @@
+<resources>
+    <item name="source_language" type="id" />
+    <item name="target_language" type="id" />
+    <item name="caption_scroll" type="id" />
+    <item name="caption_latest" type="id" />
+    <item name="asr_provider" type="id" />
+    <item name="asr_model" type="id" />
+    <item name="asr_backend" type="id" />
+    <item name="eleven_api_key" type="id" />
+    <item name="eleven_model" type="id" />
+</resources>

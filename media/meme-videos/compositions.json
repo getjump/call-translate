@@ -1,0 +1,40 @@
+[
+  {
+    "id": "WaterToBeer",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationInFrames": 570,
+    "props": {
+      "variant": "a"
+    },
+    "defaultProps": {
+      "variant": "a"
+    },
+    "defaultCodec": null,
+    "defaultOutName": null,
+    "defaultVideoImageFormat": null,
+    "defaultPixelFormat": null,
+    "defaultProResProfile": null,
+    "defaultSampleRate": null
+  },
+  {
+    "id": "PerfectPhraseWrongWish",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationInFrames": 570,
+    "props": {
+      "variant": "b"
+    },
+    "defaultProps": {
+      "variant": "b"
+    },
+    "defaultCodec": null,
+    "defaultOutName": null,
+    "defaultVideoImageFormat": null,
+    "defaultPixelFormat": null,
+    "defaultProResProfile": null,
+    "defaultSampleRate": null
+  }
+]

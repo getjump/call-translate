@@ -1,0 +1,27 @@
+{
+  "sample_rate": 48000,
+  "duration": 18,
+  "music": "Original procedural synth, generated locally",
+  "voices": "ElevenLabs eleven_v3, three requested clips",
+  "timelines": {
+    "translation": [
+      {
+        "clip": "caller-serbian",
+        "at": 1.45,
+        "duration": 3.44
+      }
+    ],
+    "agent": [
+      {
+        "clip": "task-russian",
+        "at": 3.35,
+        "duration": 2.08
+      },
+      {
+        "clip": "agent-serbian",
+        "at": 6.85,
+        "duration": 4.64
+      }
+    ]
+  }
+}

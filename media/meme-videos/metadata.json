@@ -1,0 +1,122 @@
+{
+  "films": [
+    {
+      "file": "01-water-to-beer.mp4",
+      "size_bytes": 2617042,
+      "sha256": "973fe3c02dee90b0f28ba2d18ac5c32c76ff0dd7ed368886995e49815152fcb8",
+      "duration_seconds": 19.0,
+      "video": {
+        "codec_name": "h264",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "30/1",
+        "nb_frames": "570",
+        "pix_fmt": "yuv420p",
+        "color_space": "bt709",
+        "color_transfer": "bt709",
+        "color_primaries": "bt709"
+      },
+      "audio": {
+        "codec_name": "aac",
+        "sample_rate": "48000",
+        "channels": 2,
+        "bit_rate": "189311",
+        "duration": "19.000000"
+      },
+      "loudness": {
+        "integrated_lufs": -17.58,
+        "true_peak_dbtp": -3.05,
+        "lra_lu": 7.8
+      },
+      "full_decode": "passed",
+      "visual_review": "12 final keyframes per film inspected: phone central, no cafe or face-to-face conversation, phone-order confirmation, readable copy, private text goal before Serbian agent response and settled end frame"
+    },
+    {
+      "file": "02-perfect-phrase-wrong-wish.mp4",
+      "size_bytes": 2515944,
+      "sha256": "bbd1ef0513bf0490e03d43119feb4fa145797f9109d61f7e50fd39a073cf5f20",
+      "duration_seconds": 19.0,
+      "video": {
+        "codec_name": "h264",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "30/1",
+        "nb_frames": "570",
+        "pix_fmt": "yuv420p",
+        "color_space": "bt709",
+        "color_transfer": "bt709",
+        "color_primaries": "bt709"
+      },
+      "audio": {
+        "codec_name": "aac",
+        "sample_rate": "48000",
+        "channels": 2,
+        "bit_rate": "190723",
+        "duration": "19.000000"
+      },
+      "loudness": {
+        "integrated_lufs": -18.47,
+        "true_peak_dbtp": -2.86,
+        "lra_lu": 7.4
+      },
+      "full_decode": "passed",
+      "visual_review": "12 final keyframes per film inspected: phone central, no cafe or face-to-face conversation, phone-order confirmation, readable copy, private text goal before Serbian agent response and settled end frame"
+    }
+  ],
+  "typescript": "passed",
+  "voice_generation": {
+    "provider": "ElevenLabs",
+    "model": "eleven_v3",
+    "request_count": 12,
+    "lines_delivered": 11,
+    "languages": [
+      "ru",
+      "sr"
+    ],
+    "scope": "Short authorized lines only; one targeted pronunciation revision"
+  },
+  "asr_checks": [
+    {
+      "asset": "hero-pivo",
+      "language": "sr",
+      "transcription": "Pivo molim."
+    },
+    {
+      "asset": "hero-vodu",
+      "language": "sr",
+      "transcription": "Vodu molim."
+    },
+    {
+      "asset": "agent-pivo",
+      "language": "sr",
+      "transcription": "Pivo, molim."
+    },
+    {
+      "asset": "agent-vodu",
+      "language": "sr",
+      "transcription": "Vodu, molim."
+    },
+    {
+      "asset": "a-user",
+      "language": "ru",
+      "transcription": "Мне воды, пожалуйста."
+    },
+    {
+      "asset": "b-user",
+      "language": "ru",
+      "transcription": "Хочу пива."
+    }
+  ],
+  "product_scope": "Telephone-only illustrated concept of Call Translate + ElevenLabs voice agent. No SIM audio injection demonstration. User task is typed privately before Serbian agent speech. No private Russian task VO is played.",
+  "music_and_effects": "Original local procedural synthesis with telephone ring and EQ; no new external assets generated for revision",
+  "revision": "Telephone interface replaces all in-person interactions; clean product showcase styling from user prompt",
+  "scene_sources": [
+    "src/content.ts",
+    "src/Meme.tsx",
+    "src/style.css",
+    "storyboard.md",
+    "edit-notes.md"
+  ],
+  "private_tasks": "Typed and silent; cached a-user/b-user audio assets are not used in final mixes",
+  "privacy": "No private calls, actual phone recordings, API credentials, or copied application secrets are included"
+}

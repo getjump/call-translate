@@ -1,0 +1,42 @@
+@font-face {
+  font-family: Inter;
+  src: url('../public/fonts/inter-latin-600-normal.woff2') format('woff2');
+  font-weight: 600;
+  unicode-range: U+0000-024F;
+}
+@font-face {
+  font-family: Inter;
+  src: url('../public/fonts/inter-cyrillic-600-normal.woff2') format('woff2');
+  font-weight: 600;
+  unicode-range: U+0400-052F;
+}
+@font-face {
+  font-family: Inter;
+  src: url('../public/fonts/inter-latin-800-normal.woff2') format('woff2');
+  font-weight: 800;
+  unicode-range: U+0000-024F;
+}
+@font-face {
+  font-family: Inter;
+  src: url('../public/fonts/inter-cyrillic-800-normal.woff2') format('woff2');
+  font-weight: 800;
+  unicode-range: U+0400-052F;
+}
+@font-face {
+  font-family: Unbounded;
+  src: url('../public/fonts/unbounded-latin-800-normal.woff2') format('woff2');
+  font-weight: 800;
+  unicode-range: U+0000-024F;
+}
+@font-face {
+  font-family: Unbounded;
+  src: url('../public/fonts/unbounded-cyrillic-800-normal.woff2') format('woff2');
+  font-weight: 800;
+  unicode-range: U+0400-052F;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
